@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+<head>
+  <title>penpot clone</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+  <style>
+    .contact {
+    text-align: center;
+}
+  </style>
+</head>
+
+<body>
+ 
+    <!-- Pre Header -->
+      <div class="flex items-center jutify-center space-x-96 p-4 bg-black">
+        <a href="">
+            <img class="w-32 ml-8 mr-96" src="img/logo.png" alt="">
+        </a>
+            <button class="pl-80">
+              <div class="flex items-center text-slate-400 bg-emerald-300 p-2 pl-4 pr-4 rounded hover:bg-white">
+                  <a class="text-black">Try Penpot - It's free</a>
+              </div>
+            </button>         
+      </div>
+
+      <div class="w-96 ml-96">
+      <div class=" flex justify-center bg-cyan-100 text-black uppercase rounded p-4 absolute ml-64 top-96 mt-6">
+        <p> WIP </p></div>
+      </div>
+
+    <!-- Main Header  -->
+    <header class="sticky -top-1 bg-white">
+      <div class="flex items-center jutify-center p-6 border-b">
+          <div>
+              <a class="ml-8 mr-80 text-2xl font-extralight"> Help center </a>
+          </div>
+          <div class="flex items-center jutify-center space-x-12">
+              <a class="font-bold underline" href="home.html">Home</a>
+              <a class="hover:underline" href="user-guide.html">User Guide</a>
+              <a class="hover:underline" href="contributing.html">Contributing</a>
+              <a class="hover:underline" href="technical-guide.html">Technecal Guide</a>
+              <a class="hover:underline" href="faqs.html">FAQs</a>
+          </div>
+          <div class="flex items-center ml-20">
+            <input class="p-1.5 border-gray-300 text-sm focus:w-72" type="text" placeholder="Search...">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              </svg>        
+          </div>
+      </div>   
+  </header>
+    <!-- Help center -->
+  <main>
+    <h1 class="text-7xl font-bold ml-28 mt-24">Help center</h1>
+
+    <div class="flex items-center justify-center">
+      <!-- user guide -->
+      <div class="mt-16 flex items-center p-4 pr-20 border border-gray-300 rounded-lg shadow hover:border-green-400">
+        <img class="w-56" src="img/home-userguide.png" alt="">
+        <a href="user-guide.html">
+          <h3 class="text-3xl font-bold">User guide →</h3>
+          <p class="mt-4 text-gray-500">Everything you need to know about how<br>Penpot works.</p>
+        </a>
+      </div>
+      <!-- FAQs -->
+      <div class="mt-16 ml-8 flex items-center p-4 pr-20 border border-gray-300 rounded-lg shadow hover:border-green-400">
+        <img class="w-56" src="img/home-faq.png" alt="">
+        <a href="faqs.html">
+          <h3 class="text-3xl font-bold">FAQs →</h3>
+          <p class="mt-4 text-gray-500">Get quick answers to usual questions about<br> "why and how" Penpot.</p>
+        </a>
+      </div>
+    </div>
+
+    <div class="flex items-center justify-center mt-8">
+      <!-- Technical Guide -->
+      <div class="flex items-center p-4 pr-14 border border-gray-300 rounded-lg shadow hover:border-green-400">
+        <img class="w-56" src="img/home-techguide.png" alt="">
+        <a href="technical-guide.html">
+          <h3 class="text-3xl font-bold">Technical guide →</h3>
+          <p class="mt-4 text-gray-500">Installation, configuration and architecture.</p>
+        </a>
+      </div>
+      <!-- Contributing -->
+      <div class=" ml-8 flex items-center p-4 pr-14 border border-gray-300 rounded-lg shadow hover:border-green-400">
+        <img class="w-56" src="img/home-contributing.png" alt="">
+        <a href="contributing.html">
+          <h3 class="text-3xl font-bold">Contributing guide →</h3>
+          <p class="mt-4 text-gray-500">How to report bugs, add translations and more.</p>
+        </a>
+      </div>
+    </div>
+
+    <div class="flex items-center justify-left ml-32 mt-20 border border-dashed border-r-0 border-l-0 p-12 w-10/12">
+      <div class="flex items-center space-x-8">
+        <img class="w-20" src="img/github logo.png" alt="">
+        <a href="https://github.com/Mai0403/Penpot-clone">
+          <h3 class="text-3xl font-bold hover:text-emerald-500">Contributing guide →</h3>
+          <p class="mt-4 text-gray-500">Penpot is open source. Get involved on the community or contribute to the project.</p>
+        </a>
+      </div>
+    </div>
+  </main>
+
+    <!-- contact -->
+<div class="flex justify-center pb-40">
+  <div class="contact">
+    <img class="w-80 ml-12 mb-6" src="img/contact.png" alt="">
+    <h1 class="text-3xl font-bold"> Contact Us</h1>
+    <p class="mt-6">Write us at <a class="text-green-500 underline hover:text-black" href="">support@penpot.app</a> or join the <a class="text-green-500 underline hover:text-black" href="">team discusions</a>.</p>
+  </div>
+</div>
+
+<!-- Edit page -->
+  <div class="flex justify-center border border-dashed border-b-0 border-l-0 border-r-0 p-8">
+  <a class="text-green-500 underline hover:text-black" href="">Edit this page on GitHub</a>
+  </div>
+
+  <!-- Footer -->
+<footer>
+  <div class=" bg-zinc-900 pb-16">
+
+  <div class="flex items-top justify-left pl-12 space-x-36 pt-20">
+    <img class="w-40 h-12" src="img/logo.png" alt="">
+
+    <ul class="text-white space-y-6">
+      <li class="hover:text-teal-300">Terms of service</li>
+      <li class="hover:text-teal-300">Privacy policy</li>
+      <li class="hover:text-teal-300">Cookie policy</li>
+      <li class="hover:text-teal-300">Data processing agreement</li>
+    </ul>
+
+    <ul class="text-white space-y-6">
+      <li class="hover:text-teal-300">User guide</li>
+      <li class="hover:text-teal-300">Contributing guide</li>
+      <li class="hover:text-teal-300">Technical guide</li>
+      <li class="hover:text-teal-300">FAQs</li>
+    </ul>
+
+    <ul class="text-white space-y-6">
+      <li class="hover:text-teal-300">The Project</li>  
+      <li class="hover:text-teal-300">About Us</li>
+      <li class="hover:text-teal-300">Community</li>
+      <li class="hover:text-teal-300">Newsletter</li>
+    </ul>
+
+    <ul class="text-white space-y-6">
+      <li class="hover:text-teal-300">Twitter</li>
+      <li class="hover:text-teal-300">Instagram</li>
+      <li class="hover:text-teal-300">GitHub</li>
+      <li class="hover:text-teal-300">Linkedin</li>
+      <li class="hover:text-teal-300">Youtube</li>
+      <li class="hover:text-teal-300">Mastodon</li>
+      <li class="hover:text-teal-300">Product Hunt</li>
+    </ul>
+  </div>
+  <p class="flex items-center justify-center text-gray-500 mt-24">Penpot © 2022 | Made with LOVE and Open Source</p>
+</div>
+
+</footer>
+</body>
+</html>

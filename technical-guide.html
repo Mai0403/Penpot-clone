@@ -1,0 +1,131 @@
+<html lang="en">
+<head>
+    <title>penpot clone</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+</head>
+<body>
+      <!-- Pre Header -->
+  <div class="flex items-center jutify-center space-x-96 p-4 bg-black">
+    <a href="">
+        <img class="w-32 ml-8 mr-96" src="img/logo.png" alt="">
+    </a>
+        <button class="pl-80">
+          <div class="flex items-center text-slate-400 bg-emerald-300 p-2 pl-4 pr-4 rounded hover:bg-white">
+              <a class="text-black">Try Penpot - It's free</a>
+          </div>
+        </button>         
+  </div>
+
+<!-- Aside -->
+<aside class="w-96 h-full absolute">
+<h1 class="ml-28 mt-28 text-2xl font-bold">Overview</h1>
+<ul class="ml-28 mt-12 space-y-8 inline-block">
+  <li><a href="" class="text-base font-bold">1. Getting Started</a></li>
+  <li><a href="" class="text-base font-bold">2. Advanced Configuration</a></li>
+  <li><a href="" class="text-base font-bold">3. Architecture</a></li>
+  <li><a href="" class="text-base font-bold">4. Developer Guide</a></li>
+</ul> 
+</aside>
+
+<!-- Main Header  -->
+<header class="sticky -top-1 bg-white">
+  <div class="flex items-center jutify-center p-6 border-b bg-white">
+          <a class="ml-8 mr-80 text-2xl font-extralight"> Help center </a>
+      <div class="flex items-center jutify-center space-x-12">
+          <a class="hover:underline" href="home.html">Home</a>
+          <a class="hover:underline" href="user-guide.html">User Guide</a>
+          <a class="hover:underline" href="contributing.html">Contributing</a>
+          <a class="font-bold underline" href="technical-guide.html">Technecal Guide</a>
+          <a class="hover:underline" href="FAQs.html">FAQs</a>
+      </div>
+      <div class="flex items-center ml-20">
+        <input class="p-1.5 border-gray-300 text-sm focus:w-72" type="text" placeholder="Search...">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+          </svg>        
+      </div>
+  </div>
+</header>   
+
+
+<main class=" ml-96">
+  <img class="w-96 mt-12 ml-64" src="img/home-techguide.png" alt="">
+<div class="mt-24 ml-40">
+<div>
+  <h1 class="font-bold text-7xl">Overview</h1>
+  <p class="mt-8 text-lg text-gray-800">This documentation intends to explain how to get Penpot application and run it locally,<br>test it, or make changes to it.</p>
+  <p class="mt-8 text-lg text-gray-800">There are two main options for creating a local on-premise instance:</p>
+  <ul class="mt-4 space-y-4">
+    <li>1. Using the platform of our partner <a class="text-green-500 underline" href="">Elestio.</a></li>
+    <li>2. Doing the installation yourself with Docker.
+    </li>
+  </ul>
+
+  <div class="mt-8 bg-teal-100 flex items-center justify-center p-8 mr-64 rounded">
+    <p class="text-gray-800 text-lg">If you don't have experience using Docker or if you want a fully automatically<br> managed service, we recommend using Elestio. Otherwise, go for Docker.</p>
+  </div>
+
+  <ul class="list-disc ml-6 mt-8 text-lg text-gray-700 space-y-6">
+    <li>In the <a class="text-green-500 underline hover:text-black" href="">Install with Elestio</a> section, you can find details on how to open an Elestio account<br> and create your Penpot instance.</li>
+    <li>In the <a class="text-green-500 underline hover:text-black" href="">Install with Docker</a> section, you can find the official Docker installation guide.</li>
+    <li>In the <a class="text-green-500 underline hover:text-black" href="">Configuration</a> section, you can find more advanced setup options.</li>
+    <li>If you are a developer and want to get into the code, we recommend the <a class="text-green-500 underline hover:text-black" href="">Developer Guide <a><br>that explains how to properly setup a development environment and many other dev-<br>oriented documentation.</li>
+  </ul>
+</div>
+
+
+
+
+</main>
+<!-- Edit page -->
+<div class="p-12"></div>
+<div class="flex justify-center border border-dashed border-b-0 border-l-0 border-r-0 p-8">
+<a class="text-green-500 underline hover:text-black" href="">Edit this page on GitHub</a>
+</div>
+
+<!-- Footer -->
+<footer>
+<div class=" bg-zinc-900 pb-16">
+
+<div class="flex items-top justify-left pl-12 space-x-36 pt-20">
+<img class="w-40 h-12" src="img/logo.png" alt="">
+
+<ul class="text-white space-y-6">
+  <li class="hover:text-teal-300">Terms of service</li>
+  <li class="hover:text-teal-300">Privacy policy</li>
+  <li class="hover:text-teal-300">Cookie policy</li>
+  <li class="hover:text-teal-300">Data processing agreement</li>
+</ul>
+
+<ul class="text-white space-y-6">
+  <li class="hover:text-teal-300">User guide</li>
+  <li class="hover:text-teal-300">Contributing guide</li>
+  <li class="hover:text-teal-300">Technical guide</li>
+  <li class="hover:text-teal-300">FAQs</li>
+</ul>
+
+<ul class="text-white space-y-6">
+  <li class="hover:text-teal-300">The Project</li>  
+  <li class="hover:text-teal-300">About Us</li>
+  <li class="hover:text-teal-300">Community</li>
+  <li class="hover:text-teal-300">Newsletter</li>
+</ul>
+
+<ul class="text-white space-y-6">
+  <li class="hover:text-teal-300">Twitter</li>
+  <li class="hover:text-teal-300">Instagram</li>
+  <li class="hover:text-teal-300">GitHub</li>
+  <li class="hover:text-teal-300">Linkedin</li>
+  <li class="hover:text-teal-300">Youtube</li>
+  <li class="hover:text-teal-300">Mastodon</li>
+  <li class="hover:text-teal-300">Product Hunt</li>
+</ul>
+</div>
+<p class="flex items-center justify-center text-gray-500 mt-24">Penpot © 2022 | Made with LOVE and Open Source</p>
+</div>
+</footer>
+</body>
+</html>
